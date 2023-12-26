@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #00cc66;
+}   
+
+.form-group {
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #333333;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: #00ff80;
+    box-shadow: 0px 0px 15px 5px #076a39;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-group h1 {
+    padding: 25px;
+    padding-top: 30px;
+    margin-left: 95px;
+    font-size: 40px;
+    animation: head 4s ;
+    
+}
+
+@keyframes head {
+    0% {
+        color: #333333;
+    }
+
+    30% {
+
+        letter-spacing: 3px;
+    }
+    
+}
+
+input {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 10px;
+    background-color: transparent;
+    border-bottom: 3px solid #00cc66;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    animation: inputanimation 4s;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    font-size: 15px;
+
+}
+
+.forgot a {
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+    color: #00cc66;
+    transform: scale(1.1);
+}
+
+
+button{
+    margin-top: 40px;
+    margin-left: 125px;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #00cc66;
+    color: white;
+    transform: scale(0.95);
+}
+
